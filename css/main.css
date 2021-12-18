@@ -1,0 +1,49 @@
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif; 
+*/
+
+/*-- base rules --*/
+
+*{
+    margin:0;
+    padding:0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+p, section, article{
+    font-family: 'Nunito', sans-serif;
+    font-size:20px;
+    line-height: 30px; 
+    color:#65757d;
+}
+
+*::selection{
+    background: #ff9900;
+    color:#fff;
+    outline: none;
+}
+*::-moz-selection{
+    background: #ff9900;
+    color:#fff;
+    outline: none;
+}
+.r-p{
+    padding-top:80px;
+    padding-bottom:80px;
+}
+.p-b-80{
+    padding-bottom:80px;
+}
+.gray-bg{
+    background:#f8f9fa;
+}
+.r-btn{
+    padding:5px 20px;
+    background-color:#e96f85;
+    color:#fff;
+    transition: all 0.5s;
+}
+/*-- base rules --*/
+
